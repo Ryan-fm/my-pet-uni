@@ -1,0 +1,69 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/petCircle/index",
+			"style": {
+				"navigationBarTitleText": "宠圈"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/personalCenter/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+		"backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/index.png",
+				"selectedIconPath":"static/image/indexLight.png"
+    },{
+        "pagePath": "pages/petCircle/index",
+				"text": "宠圈",
+				"iconPath": "static/image/news.png",
+				"selectedIconPath":"static/image/newsLight.png"
+		},
+		{
+			"pagePath": "pages/news/index",
+			"iconPath": "static/image/addBtn.png",
+			"selectedIconPath":"static/image/addBtn.png"
+		},
+		{
+			"pagePath": "pages/news/index",
+			"text": "消息",
+			"iconPath": "static/image/message.png",
+			"selectedIconPath":"static/image/messageLight.png"
+		},
+		{
+			"pagePath": "pages/personalCenter/index",
+			"text": "我的",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath":"static/image/homeLight.png"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
