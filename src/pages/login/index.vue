@@ -1,6 +1,10 @@
 <template>
 	<view class="content">
-      登录页面
+		<div class="logo-set">
+			<img src="http://viptail.image.alimmdn.com/files/official_web/img/icon_logo.png" alt="">
+			2
+		</div>
+	</div>
 	</view>
 </template>
 

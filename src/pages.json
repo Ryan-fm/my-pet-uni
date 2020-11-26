@@ -23,6 +23,18 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/warn/index",
+			"style": {
+				"navigationBarTitleText": "提示"
+			}
 		}
 	],
 	"tabBar": {
@@ -42,7 +54,7 @@
 				"selectedIconPath":"static/image/newsLight.png"
 		},
 		{
-			"pagePath": "pages/news/index",
+			"pagePath": "pages/dynamic/index",
 			"iconPath": "static/image/addBtn.png",
 			"selectedIconPath":"static/image/addBtn.png"
 		},
